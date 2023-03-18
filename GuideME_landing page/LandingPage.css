@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+body{
+ margin: 0;
+ padding: 0;
+ font-family: 'Inter', sans-serif;
+ /* background-color:rgba(255, 151, 172, 0.719); */
+ /* background-color: rgba(14, 167, 14, 0.521); */
+
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-top: -20px;  
+}
+.logo-img{
+    width:200px;
+}
+.navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+}
+.header-links{
+    color: black;
+    text-decoration: none;
+    margin: 0px 18px;
+}
+.header-links:hover{
+    color: rgb(145, 145, 145);
+
+    transition: 0.2s;
+
+}
+.profile-icon{
+    width: 1.8rem;
+    cursor: pointer;
+}
+.content-container{
+    width: 1200px;
+    height: 80vh;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px;
+    border-radius: 16px;
+    box-shadow: 0.5px 1px 3px;
+    padding: 0px 20px;
+}
+.home-content{
+    /* background-color: rgba(255, 241, 215, 0.562); */
+    /* border-radius: 16px; */
+    /* box-shadow: 0.5px 1px 3px; */
+    /* padding: 10px; */
+}
+.userName{
+    font-size: 38px;
+    margin-top: -30px;
+    font-family: 'Lobster', cursive;
+}
+.content-img{
+    width: 550px;
+}
+.content-heading{
+    /* background-color: bisque; */
+}
+.website_intro{
+    position: absolute;
+    bottom:0px;
+}
+.welcome{
+    font-weight:300px;
+    font-size: 20px;
+}
+.content-container1{
+    width: 1100px;
+    border: 1px solid lightgray;
+    background-color: rgba(252, 252, 252, 0.726);
+    border-radius: 16px 16px 16px 16px;
+    margin: 100px auto;
+    padding: 0px 20px;
+    box-shadow: 0px 2.5px 6px rgb(241, 182, 207);
+    transition: all 2s;
+}
+.sugestion-card{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: -40px 0;
+    margin-bottom: -40px;
+}
+.sugestion-btn{
+    padding: 12px 36px;
+    border: none;
+    border-radius: 20px;
+    background-color:rgb(236,232,239);
+    color: rgb(109,108,108);
+    font-size: 16px;
+    box-shadow: 0px 2px 6px black;
+    position: relative;
+    bottom: 50px;
+    left: 40px;
+    cursor: pointer;
+}
+.sugestion-btn:hover{
+    background-color: rgb(211,197,222);
+    transition: 0.4s;
+
+}
+.convence-img{
+    width: 440px;
+    height: 200px;
+    margin: 24px -10px 24px 20px;
+    padding: 60px 20px;
+    border-radius: 20px;
+}
+.financial-img{
+    width: 400px;
+    padding: 50px 20px;
+}
+footer{
+    /* background-color:rgb(34, 34, 33); */
+    background-color: rgb(49, 49, 87);
+    text-align: center;
+}
+.facebookLogo{
+    background-color: rgb(56, 52, 52);
+    width: 40px;
+    margin-right: 18px;
+    padding: 6px;
+    border-radius: 50%;
+    margin-top: 60px;
+    cursor: pointer;
+
+}
+.link-part{
+    margin-top: 18px;
+    display: flex;
+    justify-content: center;
+}
+.line{
+    margin-left: 18px;
+}
+.footer-links{
+    /* color: rgb(151, 118, 118); */
+    color: lightgray;
+}
+.footer-para{
+    color: rgb(151, 118, 118);
+    font-size: 18px;
+}
+.last-part{
+    padding: 14px 0;
+    /* background-color: rgba(3, 82, 3, 0.842); */
+}
+.footer-para{
+    margin-top: 40px;
+    color: rgb(129, 127, 127);
+}
+.copyright-para{
+    margin-top: -6px;
+}
